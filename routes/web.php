@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\authController;
+use App\Http\Controllers\twilloController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::match(['get','post'],'/twillo-sms',[authController::class,"index"])->name("send-msg");
+Route::match(['get','post'],'/twillo-sms',[twilloController::class,"index"])->name("send-msg");
 
 Route::get('/send-sms', function () {
     return view('sms');

@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Http;
 use Exception;
 use Twilio\Rest\Client;
 
-class authController extends Controller
+class twilloController extends Controller
 {
     public $account_sid;
     public $auth_token;
