@@ -1,64 +1,121 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+![imgonline-com-ua-twotoone-2qzQCDDOF9GOlt](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/cf72ac5a-0244-46af-8c70-286f038c597f)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# Twilio SMS Message API in Laravel 10
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This repository provides an implementation of the Twilio SMS Message API using Laravel 10.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Laravel Documentation
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+For detailed information on how to install Laravel 10 and create your first Laravel project, refer to the <a href="https://laravel.com/docs/10.x/installation#your-first-laravel-project" target="_blank">Laravel documentation.</a>
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Usage
 
-### Premium Partners
+This project allows you to send free SMS messages to your own number using a free Twilio account.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
+## Installation Steps
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+Follow these steps to install Laravel and set up the project:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+1    Create a new Laravel project using the following command:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![4](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/2d2e1016-f588-4d70-9dcd-03e5bde8d88d)
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+2    Change to the project directory:
+
+![5](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/91aa4d55-64b8-46cd-86f9-207ea94f8944)
+
+
+3    Install project dependencies using Composer:
+
+
+![6](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/002de70e-3297-4435-90f4-9fe311a7104d)
+
+
+4    Run Composer's autoload dump:
+
+
+![7](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/648b9d98-3450-45e9-8d87-df60584664ea)
+
+
+
+#   Clearing Cache
+
+
+After installing Composer, it's recommended to clear the cache. Run the following commands:
+
+
+1    Clear route cache:  **php artisan route:clear**
+    
+2    Clear configuration cache:  **php artisan config:cache**
+
+3    Clear view cache:   **php artisan view:clear**
+
+4   Optimize the application:  ** php artisan optimize**
+
+
+#   Running the Laravel App
+
+To run the Laravel application, execute the following command:
+
+
+![1t](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/26497595-fe3c-4b18-9c28-31be504f4dc2)
+
+
+#   Setting Up a Twilio Free Account
+
+
+**Twillo Docs:-**    https://www.twilio.com/docs
+
+
+To obtain the necessary credentials for the Twilio SMS Message API, follow these steps:
+
+
+1    **Create a free Twilio accoun**t by visiting this <a href="https://www.twilio.com/try-twilio" target="_blank">link.</a>
+
+
+2    Generate a free phone number with Twilio.
+
+
+3    Access your account information to find your Account SID, Auth Token, and My Twilio phone number. Refer to the Twilio documentation for more details.
+
+
+![Screenshot 2023-06-04 210905 (1)](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/ea7959a4-c377-43b4-96bc-b997329a498d)
+
+
+
+
+#   Laravel Web Application
+
+![8](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/9ee5c54e-b3f2-4486-80c5-5869aa91e03e)
+
+
+
+##  Create a Env file:-
+
+**Add your Account SID, Auth Token, and My Twilio phone number on env file**
+
+![9](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/4c612912-90fa-44b9-a9fb-14d4b6fe956f)
+
+
+
+## Create a Controller file with command or You can check file on this path
+
+    **Command:-**
+
+    php artisan make:controller twilloController
+
+    https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/blob/master/app/Http/Controllers/twilloController.php
+
+
+##  Create a route file
+
+    https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/blob/master/routes/web.php
