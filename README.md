@@ -38,18 +38,28 @@ composer create-project laravel/laravel example-app
 
 ![5](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/91aa4d55-64b8-46cd-86f9-207ea94f8944)
 
+```
+cd example-app
+```
+
 
 3    Install project dependencies using Composer:
 
 
 ![6](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/002de70e-3297-4435-90f4-9fe311a7104d)
 
+```
+composer install
+```
 
 4    Run Composer's autoload dump:
 
 
 ![7](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/648b9d98-3450-45e9-8d87-df60584664ea)
 
+```
+composer dump-autoload
+```
 
 
 #   Clearing Cache
