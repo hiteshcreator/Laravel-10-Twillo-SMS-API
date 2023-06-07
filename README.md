@@ -26,13 +26,11 @@ Follow these steps to install Laravel and set up the project:
 
 1    Create a new Laravel project using the following command:
 
+![4](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/2d2e1016-f588-4d70-9dcd-03e5bde8d88d)
+
 ```
 composer create-project laravel/laravel example-app
 ```
-
-
-![4](https://github.com/hiteshcreator/Laravel-10-Twillo-SMS-API/assets/86715574/2d2e1016-f588-4d70-9dcd-03e5bde8d88d)
-
 
 2    Change to the project directory:
 
