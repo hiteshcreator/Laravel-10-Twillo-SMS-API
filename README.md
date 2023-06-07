@@ -26,7 +26,7 @@ Follow these steps to install Laravel and set up the project:
 
 1    Create a new Laravel project using the following command:
 
-```
+```plaintext
 composer create-project laravel/laravel example-app
 ```
 
